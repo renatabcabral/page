@@ -1,0 +1,117 @@
+
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    background-color: #333;
+}
+
+.topo .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.topo h1 {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#destaque {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.imagem-destaque {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section {
+    text-align: center;
+    
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section img {
+    width: 200px;
+    height: auto;
+    margin: 1rem;
+}
+
+#sobre-nos {
+    background-color: #fff;
+}
+
+#cachorro {
+    background-color: #e3f2fd;
+}
+
+#gato {
+    background-color: #fce4ec;
+}
+
+#equinos {
+    background-color: #f3e5f5;
+
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
